@@ -145,8 +145,9 @@ sudo yum remove docker \
 Accessing the Services
 You can access Prometheus and Grafana using the NodePort IP at ports 9090 and 3000 respectively.
 
-localhost:9090 # Prometheus
-localhost:3000 # Grafana
+"minikube ip":9090 # Prometheus
+
+"minikube ip":3000 # Grafana
 
 # Conclusion
 
