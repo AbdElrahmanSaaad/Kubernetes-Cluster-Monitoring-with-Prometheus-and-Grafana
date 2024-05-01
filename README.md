@@ -6,6 +6,7 @@ This project sets up monitoring for a Kubernetes cluster using Prometheus and Gr
 
 - Docker
 - Minikube
+- Kubectl
 - Helm
 
 ## Installation
