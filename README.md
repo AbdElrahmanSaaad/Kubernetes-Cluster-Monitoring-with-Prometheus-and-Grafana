@@ -73,6 +73,20 @@ sudo yum remove docker \
     ```
 ![Screenshot 2024-04-29 223759](https://github.com/AbdElrahmanSaaad/Kubernetes-Cluster-Monitoring-with-Prometheus-and-Grafana/assets/60901149/bf5c1fb6-f25d-4852-bc83-446bb1c57418)
 
+# Install and Set Up kubectl
+
+## Install kubectl binary with curl on Linux
+
+1.Download the latest release with the command:
+```bash
+    curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+
+2.Install kubectl
+```bash
+    sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+```
+
 # Install Helm
 
 ## Installation Steps
